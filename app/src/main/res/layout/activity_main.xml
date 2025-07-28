@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutGallery"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:background="@drawable/minimal_gradient">
+
+    <!-- Elementos decorativos flotantes -->
+    <View
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/floating_circle"
+        android:layout_gravity="start"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="-100dp"
+        android:alpha="0.6" />
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/floating_circle"
+        android:layout_gravity="end"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="-50dp"
+        android:alpha="0.4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/glassmorphism_card"
+        android:elevation="12dp"
+        android:padding="36dp"
+        android:layout_margin="16dp">
+
+        <!-- Icono principal -->
+        <TextView
+            android:text="🔓"
+            android:textSize="68sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:elevation="2dp" />
+
+        <TextView
+            android:text="👋 Acerca tu mano al sensor o activa un dispositivo bluetooth para desbloquear"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:text="Mantén tu mano cerca del sensor por unos segundos para mejor detección"
+            android:textSize="14sp"
+            android:textColor="#B0BEC5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginBottom="24dp"
+            android:alpha="0.9" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:max="100"
+            android:progress="0"
+            android:progressTint="#64FFDA"
+            android:progressBackgroundTint="#37474F"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>

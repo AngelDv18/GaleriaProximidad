@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GaleriaProximidad</string>
+    <!-- res/values/strings.xml -->
+    <string name="title_gallery">📁 Galería Privada</string>
+    <string name="subtitle_gallery">Tus imágenes están seguras aquí</string>
+    <string name="btn_back">← Regresar</string>
+    <string name="btn_delete">🗑 Eliminar</string>
+    <string name="btn_add">➕ Agregar</string>
+    <string name="empty_gallery">No hay imágenes en tu galería</string>
+    <string name="empty_hint">Las imágenes capturadas aparecerán aquí de forma segura</string>
+    <string name="image_count_zero">📸 0 imágenes</string>
+    <string name="last_update_now">Última actualización: Ahora</string>
+
+</resources>

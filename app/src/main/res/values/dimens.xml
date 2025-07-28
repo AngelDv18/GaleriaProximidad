@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/dimens.xml -->
+<resources>
+    <dimen name="grid_spacing">8dp</dimen>
+    <dimen name="image_corner_radius">8dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+</resources>

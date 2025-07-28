@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#000">
+
+    <ImageView
+        android:id="@+id/imageViewEditor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter" />
+
+    <!-- Panel de botones flotantes con íconos -->
+    <LinearLayout
+        android:id="@+id/buttonsPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="8dp"
+        android:background="#88000000"
+        android:layout_marginBottom="10dp">
+
+        <ImageButton
+            android:id="@+id/btnText"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_text"
+            android:contentDescription="Agregar texto"
+            />
+
+        <ImageButton
+            android:id="@+id/btnRotate"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_rotate"
+            android:contentDescription="Rotar imagen"
+             />
+
+        <ImageButton
+            android:id="@+id/btnFilter"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_filter"
+            android:contentDescription="Aplicar filtro"
+             />
+
+        <ImageButton
+            android:id="@+id/btnSave"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_save"
+            android:contentDescription="Guardar imagen"
+             />
+    </LinearLayout>
+</RelativeLayout>
